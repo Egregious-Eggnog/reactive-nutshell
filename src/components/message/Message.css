@@ -18,6 +18,7 @@
     margin-top: 124px;
     width: 100%;
     z-index: 1;
+    text-align: right;
 }
 
 .userName:hover {
@@ -32,10 +33,12 @@ button {
     margin: 10px;
     text-align: center;
     box-shadow: 2px 2px 2px 2px lightgray;
+    width: 40%;
 }
 .messageButton {
     margin-bottom: 10px;
     width: 20%;
+    padding: 0;
 }
 .messagesCard {
     text-align: center;
@@ -44,7 +47,19 @@ button {
     text-align: center;
 }
 .messageList {
-    margin-top: 17%;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: right;
+    justify-content: right;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    border-right: 2px solid lightgrey;
+    border-left: 2px solid lightgrey;
+    /* box-shadow: 2px 2px 2px 2px lightgray; */
+
 }
 #newMessageForm {
     position: fixed;
@@ -54,9 +69,18 @@ button {
     border: 1px lightgrey solid;
     background-color: white;
     padding: 20px;
-    /* margin: 10px; */
     box-shadow: 4px 4px 4px 4px lightgray;
 }
 .messageFormButton {
     margin-top: 10px;
 }
+
+.align-right-msg {
+margin-left: 58%; 
+}
+.imageCenter {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
